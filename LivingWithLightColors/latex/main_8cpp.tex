@@ -1,0 +1,430 @@
+\hypertarget{main_8cpp}{\section{Living\+With\+Light\+Colors/\+Living\+With\+Light\+Colors/main.cpp File Reference}
+\label{main_8cpp}\index{Living\+With\+Light\+Colors/\+Living\+With\+Light\+Colors/main.\+cpp@{Living\+With\+Light\+Colors/\+Living\+With\+Light\+Colors/main.\+cpp}}
+}
+{\ttfamily \#include $<$sifteo.\+h$>$}\\*
+{\ttfamily \#include $<$sifteo/video/color.\+h$>$}\\*
+{\ttfamily \#include \char`\"{}assets.\+gen.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}Configuration.\+cpp\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}Acceleration\+Assessor.\+cpp\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}Communication.\+cpp\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}Cube\+Drawer.\+cpp\char`\"{}}\\*
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{main_8cpp_af23b9f1d025a3f6bdb904ab82a129501}{draw\+Cube} (Cube\+I\+D cid)
+\item 
+static void \hyperlink{main_8cpp_aa5e4b9a4b2e8aff9b6ca3a7411ed0ccf}{activate\+Cube} (Cube\+I\+D cid)
+\item 
+static void \hyperlink{main_8cpp_a09bb537b466d1365a2f54ad076b967c0}{paint\+Wrapper} ()
+\item 
+static void \hyperlink{main_8cpp_a8278c77b391fc974e8358b3745e5342e}{start\+Paint\+Pot\+Accel\+Behavior} (void $\ast$ctxt, unsigned cid, \hyperlink{_configuration_8cpp_a45350fcfddbf1e93888b462976b0751c}{Tilt\+Direction} tilt\+Direction)
+\item 
+static void \hyperlink{main_8cpp_affadffdc52ff595a2967246da12ad55f}{start\+Container\+Accel\+Behavior} (void $\ast$ctxt, unsigned cid, \hyperlink{_configuration_8cpp_a45350fcfddbf1e93888b462976b0751c}{Tilt\+Direction} tilt\+Direction)
+\item 
+static void \hyperlink{main_8cpp_a26bddcb50c860af7f8d128c317d5d008}{start\+Light\+Bulb\+Accel\+Behavior} (void $\ast$ctxt, unsigned cid, \hyperlink{_configuration_8cpp_a45350fcfddbf1e93888b462976b0751c}{Tilt\+Direction} tilt\+Direction)
+\item 
+static void \hyperlink{main_8cpp_a805f317a5ebd2938dd245d9715be5161}{on\+Accel\+Change} (void $\ast$ctxt, unsigned cid)
+\item 
+static void \hyperlink{main_8cpp_a1e81a54c6cf59b204db4e19ad996778c}{start\+Light\+Bulb\+Touch\+Behavior} (unsigned cid)
+\item 
+static void \hyperlink{main_8cpp_a6bdbd60d02dfe2d26ce9357aacb48acc}{start\+Paint\+Pot\+Touch\+Behavior} (unsigned cid)
+\item 
+static void \hyperlink{main_8cpp_a8b00f6b6dd5bf6a3d3a5607325314d7d}{start\+Container\+Touch\+Behavior} (unsigned cid)
+\item 
+static void \hyperlink{main_8cpp_a991ca6c58981dc5663983c3f9393dbd3}{on\+Touch} (void $\ast$ctxt, unsigned cid)
+\item 
+static bool \hyperlink{main_8cpp_a4f45c126b8e766dd7119ffdf64145e6e}{is\+Active} (Neighbor\+I\+D nid)
+\item 
+static void \hyperlink{main_8cpp_a8665c5d1561cdf7ff2e09f56ed3253f8}{start\+Paint\+Pot\+Container\+Neighbour\+Behavior} (unsigned cid, unsigned side0)
+\item 
+static void \hyperlink{main_8cpp_ab3626d91427944dacf7dd21421c5d3dc}{start\+Container\+Light\+Bulb\+Neighbour\+Behavior} (unsigned cid, unsigned side0)
+\item 
+static void \hyperlink{main_8cpp_aa9c84100d8d2f99d46532be12ea3a8d2}{on\+Neighbor\+Add} (void $\ast$ctxt, unsigned cube0, unsigned side0, unsigned cube1, unsigned side1)
+\item 
+static void \hyperlink{main_8cpp_a02902a366d03e7fa5faf27c59452517e}{on\+Neighbor\+Remove} (void $\ast$ctxt, unsigned cube0, unsigned side0, unsigned cube1, unsigned side1)
+\item 
+static void \hyperlink{main_8cpp_abfba8e8c9350e01d0e48f40ac3150157}{on\+Cube\+Connect} (void $\ast$ctxt, unsigned cid)
+\item 
+static void \hyperlink{main_8cpp_aeb042437741bd79fad851abfed2ab20d}{on\+Cube\+Disconnect} (void $\ast$ctxt, unsigned cid)
+\item 
+static void \hyperlink{main_8cpp_ada3f4c784022bf67edc7aa26f7cde040}{on\+Cube\+Refresh} (void $\ast$ctxt, unsigned cid)
+\item 
+void \hyperlink{main_8cpp_acdef7a1fd863a6d3770c1268cb06add3}{main} ()
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{class_acceleration_assessor}{Acceleration\+Assessor} \hyperlink{main_8cpp_a5e995c62cdca27f695a5efd16c4b7899}{acceleration\+Assessor}
+\item 
+static \hyperlink{class_communication}{Communication} \hyperlink{main_8cpp_acbef923ad22ef0461dd67c0aaf13c9d7}{communication}
+\item 
+static \hyperlink{class_cube_drawer}{Cube\+Drawer} \hyperlink{main_8cpp_a145a4c0cac329230ab67f192e85de27a}{cube\+Drawer}
+\item 
+float \hyperlink{main_8cpp_aef9e6ff1f267e54f6a9942e7d46f0edb}{Container\+Red} = 0
+\item 
+float \hyperlink{main_8cpp_a7c370d6bad87103f71ffc45d05beef17}{Container\+Yellow} = 0
+\item 
+float \hyperlink{main_8cpp_a70970a597ee91e1f36fdffd51ff1a644}{Container\+Blue} = 0
+\item 
+int \hyperlink{main_8cpp_aa7ab72a18faba1d13601a9209ff2dcf8}{brightness} = 254
+\item 
+bool \hyperlink{main_8cpp_abde08e5e4447711411dc51a4076bdb6e}{auto\+Communication} = false
+\item 
+\hyperlink{_configuration_8cpp_aa8eeb1312106b2d89cd26342fa09aac9}{Fill\+Direction} \hyperlink{main_8cpp_aa69a78fe8f0a5e64c01a13e1d0486ea9}{fill\+Direction\+Red} = \hyperlink{_configuration_8cpp_aa8eeb1312106b2d89cd26342fa09aac9ab992400fe19f75a8ef2000b0724006cd}{Fill\+Direction\+Add}
+\item 
+\hyperlink{_configuration_8cpp_aa8eeb1312106b2d89cd26342fa09aac9}{Fill\+Direction} \hyperlink{main_8cpp_a12bdf4215af10b75d1a285c75cc975a8}{fill\+Direction\+Yellow} = \hyperlink{_configuration_8cpp_aa8eeb1312106b2d89cd26342fa09aac9ab992400fe19f75a8ef2000b0724006cd}{Fill\+Direction\+Add}
+\item 
+\hyperlink{_configuration_8cpp_aa8eeb1312106b2d89cd26342fa09aac9}{Fill\+Direction} \hyperlink{main_8cpp_ab8d61245ea6c08c586354d7301f146e8}{fill\+Direction\+Blue} = \hyperlink{_configuration_8cpp_aa8eeb1312106b2d89cd26342fa09aac9ab992400fe19f75a8ef2000b0724006cd}{Fill\+Direction\+Add}
+\item 
+System\+Time \hyperlink{main_8cpp_a1a6c3dcc03b3b39fad17616e120c5be0}{last\+Click} = System\+Time\+::now()
+\item 
+System\+Time \hyperlink{main_8cpp_ad86a477584da48944b4bec180c0e24f9}{last\+Accel\+Change} = System\+Time\+::now()
+\item 
+System\+Time \hyperlink{main_8cpp_af849f884d5de66a85f2ddaa99c37c4d2}{last\+Auto\+Communication\+Sent} = System\+Time\+::now()
+\item 
+\hyperlink{_configuration_8cpp_a4f6a51e216a42669e538078745cbd8bb}{Light\+Bulb\+State} \hyperlink{main_8cpp_a714c7d126208a80b0b8f19f636de4e3c}{light\+Bulb\+State} = \hyperlink{_configuration_8cpp_a4f6a51e216a42669e538078745cbd8bbac4979499d77be0b22c6d6c670f16f8fc}{Light\+Bulb\+State\+On}
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{main_8cpp_aa5e4b9a4b2e8aff9b6ca3a7411ed0ccf}{\index{main.\+cpp@{main.\+cpp}!activate\+Cube@{activate\+Cube}}
+\index{activate\+Cube@{activate\+Cube}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{activate\+Cube}]{\setlength{\rightskip}{0pt plus 5cm}static void activate\+Cube (
+\begin{DoxyParamCaption}
+\item[{Cube\+I\+D}]{cid}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{main_8cpp_aa5e4b9a4b2e8aff9b6ca3a7411ed0ccf}
+activats the cube and makes it ready to use 
+\begin{DoxyParams}{Parameters}
+{\em cid} & cube id for the cube to activate \\
+\hline
+\end{DoxyParams}
+\hypertarget{main_8cpp_af23b9f1d025a3f6bdb904ab82a129501}{\index{main.\+cpp@{main.\+cpp}!draw\+Cube@{draw\+Cube}}
+\index{draw\+Cube@{draw\+Cube}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{draw\+Cube}]{\setlength{\rightskip}{0pt plus 5cm}static void draw\+Cube (
+\begin{DoxyParamCaption}
+\item[{Cube\+I\+D}]{cid}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{main_8cpp_af23b9f1d025a3f6bdb904ab82a129501}
+draws the gui for the cube 
+\begin{DoxyParams}{Parameters}
+{\em cid} & cube id for the cube to draw \\
+\hline
+\end{DoxyParams}
+\hypertarget{main_8cpp_a4f45c126b8e766dd7119ffdf64145e6e}{\index{main.\+cpp@{main.\+cpp}!is\+Active@{is\+Active}}
+\index{is\+Active@{is\+Active}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{is\+Active}]{\setlength{\rightskip}{0pt plus 5cm}static bool is\+Active (
+\begin{DoxyParamCaption}
+\item[{Neighbor\+I\+D}]{nid}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{main_8cpp_a4f45c126b8e766dd7119ffdf64145e6e}
+checks if a cube is still active 
+\begin{DoxyParams}{Parameters}
+{\em nid} & id of the neighbour \\
+\hline
+\end{DoxyParams}
+\hypertarget{main_8cpp_acdef7a1fd863a6d3770c1268cb06add3}{\index{main.\+cpp@{main.\+cpp}!main@{main}}
+\index{main@{main}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}void main (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{main_8cpp_acdef7a1fd863a6d3770c1268cb06add3}
+Main function. registers all events. set modes of all cubes and activates all cubes. starts the infinity loop \hypertarget{main_8cpp_a805f317a5ebd2938dd245d9715be5161}{\index{main.\+cpp@{main.\+cpp}!on\+Accel\+Change@{on\+Accel\+Change}}
+\index{on\+Accel\+Change@{on\+Accel\+Change}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{on\+Accel\+Change}]{\setlength{\rightskip}{0pt plus 5cm}static void on\+Accel\+Change (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{ctxt, }
+\item[{unsigned}]{cid}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{main_8cpp_a805f317a5ebd2938dd245d9715be5161}
+function to catch the Accel\+Change event. starts the specific behavior on each cube 
+\begin{DoxyParams}{Parameters}
+{\em cid} & cube id. \\
+\hline
+{\em ctxt} & sifteo framework param. not used \\
+\hline
+\end{DoxyParams}
+\hypertarget{main_8cpp_abfba8e8c9350e01d0e48f40ac3150157}{\index{main.\+cpp@{main.\+cpp}!on\+Cube\+Connect@{on\+Cube\+Connect}}
+\index{on\+Cube\+Connect@{on\+Cube\+Connect}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{on\+Cube\+Connect}]{\setlength{\rightskip}{0pt plus 5cm}static void on\+Cube\+Connect (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{ctxt, }
+\item[{unsigned}]{cid}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{main_8cpp_abfba8e8c9350e01d0e48f40ac3150157}
+function to catch the cube\+Connect event. Activates the cube and makes it available for using 
+\begin{DoxyParams}{Parameters}
+{\em ctxt} & sifteo framework param. not used. \\
+\hline
+{\em cid} & cube id \\
+\hline
+\end{DoxyParams}
+\hypertarget{main_8cpp_aeb042437741bd79fad851abfed2ab20d}{\index{main.\+cpp@{main.\+cpp}!on\+Cube\+Disconnect@{on\+Cube\+Disconnect}}
+\index{on\+Cube\+Disconnect@{on\+Cube\+Disconnect}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{on\+Cube\+Disconnect}]{\setlength{\rightskip}{0pt plus 5cm}static void on\+Cube\+Disconnect (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{ctxt, }
+\item[{unsigned}]{cid}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{main_8cpp_aeb042437741bd79fad851abfed2ab20d}
+function to catch the cube\+Disconnect event. Disconects the cube and removes it savely 
+\begin{DoxyParams}{Parameters}
+{\em ctxt} & sifteo framework param. not used. \\
+\hline
+{\em cid} & cube id \\
+\hline
+\end{DoxyParams}
+\hypertarget{main_8cpp_ada3f4c784022bf67edc7aa26f7cde040}{\index{main.\+cpp@{main.\+cpp}!on\+Cube\+Refresh@{on\+Cube\+Refresh}}
+\index{on\+Cube\+Refresh@{on\+Cube\+Refresh}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{on\+Cube\+Refresh}]{\setlength{\rightskip}{0pt plus 5cm}static void on\+Cube\+Refresh (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{ctxt, }
+\item[{unsigned}]{cid}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{main_8cpp_ada3f4c784022bf67edc7aa26f7cde040}
+function to catch the cube\+Refresh event. Marks dirty cubes 
+\begin{DoxyParams}{Parameters}
+{\em ctxt} & sifteo framework param. not used. \\
+\hline
+{\em cid} & cube id \\
+\hline
+\end{DoxyParams}
+\hypertarget{main_8cpp_aa9c84100d8d2f99d46532be12ea3a8d2}{\index{main.\+cpp@{main.\+cpp}!on\+Neighbor\+Add@{on\+Neighbor\+Add}}
+\index{on\+Neighbor\+Add@{on\+Neighbor\+Add}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{on\+Neighbor\+Add}]{\setlength{\rightskip}{0pt plus 5cm}static void on\+Neighbor\+Add (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{ctxt, }
+\item[{unsigned}]{cube0, }
+\item[{unsigned}]{side0, }
+\item[{unsigned}]{cube1, }
+\item[{unsigned}]{side1}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{main_8cpp_aa9c84100d8d2f99d46532be12ea3a8d2}
+function to catch the neighbour\+Add event. starts the specific behavior on each cube 
+\begin{DoxyParams}{Parameters}
+{\em ctxt} & sifteo framework param. not used. \\
+\hline
+{\em cube0} & cube id of the first cube. \\
+\hline
+{\em side0} & side where the cube0 is in touch with the other cube1. \\
+\hline
+{\em cube1} & cube id of the second cube. \\
+\hline
+{\em side1} & side where the cube1 is in touch with the other cube0 \\
+\hline
+\end{DoxyParams}
+\hypertarget{main_8cpp_a02902a366d03e7fa5faf27c59452517e}{\index{main.\+cpp@{main.\+cpp}!on\+Neighbor\+Remove@{on\+Neighbor\+Remove}}
+\index{on\+Neighbor\+Remove@{on\+Neighbor\+Remove}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{on\+Neighbor\+Remove}]{\setlength{\rightskip}{0pt plus 5cm}static void on\+Neighbor\+Remove (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{ctxt, }
+\item[{unsigned}]{cube0, }
+\item[{unsigned}]{side0, }
+\item[{unsigned}]{cube1, }
+\item[{unsigned}]{side1}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{main_8cpp_a02902a366d03e7fa5faf27c59452517e}
+function to catch the neighbour\+Remove event. starts the specific behavior on each cube 
+\begin{DoxyParams}{Parameters}
+{\em ctxt} & sifteo framework param. not used. \\
+\hline
+{\em cube0} & cube id of the first cube. \\
+\hline
+{\em side0} & side where the cube0 is not anymore in touch with the other cube1. \\
+\hline
+{\em cube1} & cube id of the second cube. \\
+\hline
+{\em side1} & side where the cube1 is not anymore in touch with the other cube0 \\
+\hline
+\end{DoxyParams}
+\hypertarget{main_8cpp_a991ca6c58981dc5663983c3f9393dbd3}{\index{main.\+cpp@{main.\+cpp}!on\+Touch@{on\+Touch}}
+\index{on\+Touch@{on\+Touch}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{on\+Touch}]{\setlength{\rightskip}{0pt plus 5cm}static void on\+Touch (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{ctxt, }
+\item[{unsigned}]{cid}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{main_8cpp_a991ca6c58981dc5663983c3f9393dbd3}
+function to catch the touch event. starts the specific behavior on each cube 
+\begin{DoxyParams}{Parameters}
+{\em cid} & cube id. \\
+\hline
+{\em ctxt} & sifteo framework param. not used \\
+\hline
+\end{DoxyParams}
+\hypertarget{main_8cpp_a09bb537b466d1365a2f54ad076b967c0}{\index{main.\+cpp@{main.\+cpp}!paint\+Wrapper@{paint\+Wrapper}}
+\index{paint\+Wrapper@{paint\+Wrapper}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{paint\+Wrapper}]{\setlength{\rightskip}{0pt plus 5cm}static void paint\+Wrapper (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{main_8cpp_a09bb537b466d1365a2f54ad076b967c0}
+used infinite loop to activate the cubes and get events \hypertarget{main_8cpp_affadffdc52ff595a2967246da12ad55f}{\index{main.\+cpp@{main.\+cpp}!start\+Container\+Accel\+Behavior@{start\+Container\+Accel\+Behavior}}
+\index{start\+Container\+Accel\+Behavior@{start\+Container\+Accel\+Behavior}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{start\+Container\+Accel\+Behavior}]{\setlength{\rightskip}{0pt plus 5cm}static void start\+Container\+Accel\+Behavior (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{ctxt, }
+\item[{unsigned}]{cid, }
+\item[{{\bf Tilt\+Direction}}]{tilt\+Direction}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{main_8cpp_affadffdc52ff595a2967246da12ad55f}
+implements the behavior of the container cube when accel is changed 
+\begin{DoxyParams}{Parameters}
+{\em cid} & cube id. \\
+\hline
+{\em ctxt} & sifteo framework param. not used. \\
+\hline
+{\em tilt\+Direction} & the direction in which the cube is tilt \\
+\hline
+\end{DoxyParams}
+\hypertarget{main_8cpp_ab3626d91427944dacf7dd21421c5d3dc}{\index{main.\+cpp@{main.\+cpp}!start\+Container\+Light\+Bulb\+Neighbour\+Behavior@{start\+Container\+Light\+Bulb\+Neighbour\+Behavior}}
+\index{start\+Container\+Light\+Bulb\+Neighbour\+Behavior@{start\+Container\+Light\+Bulb\+Neighbour\+Behavior}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{start\+Container\+Light\+Bulb\+Neighbour\+Behavior}]{\setlength{\rightskip}{0pt plus 5cm}static void start\+Container\+Light\+Bulb\+Neighbour\+Behavior (
+\begin{DoxyParamCaption}
+\item[{unsigned}]{cid, }
+\item[{unsigned}]{side0}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{main_8cpp_ab3626d91427944dacf7dd21421c5d3dc}
+implements the behavior of the container cube when an other cube is his neighbour 
+\begin{DoxyParams}{Parameters}
+{\em cid} & cube id. \\
+\hline
+{\em side0} & side where the cube is in touch with the other cube \\
+\hline
+\end{DoxyParams}
+\hypertarget{main_8cpp_a8b00f6b6dd5bf6a3d3a5607325314d7d}{\index{main.\+cpp@{main.\+cpp}!start\+Container\+Touch\+Behavior@{start\+Container\+Touch\+Behavior}}
+\index{start\+Container\+Touch\+Behavior@{start\+Container\+Touch\+Behavior}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{start\+Container\+Touch\+Behavior}]{\setlength{\rightskip}{0pt plus 5cm}static void start\+Container\+Touch\+Behavior (
+\begin{DoxyParamCaption}
+\item[{unsigned}]{cid}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{main_8cpp_a8b00f6b6dd5bf6a3d3a5607325314d7d}
+implements the behavior of the conatiner cube when the cube is touched 
+\begin{DoxyParams}{Parameters}
+{\em cid} & cube id \\
+\hline
+\end{DoxyParams}
+\hypertarget{main_8cpp_a26bddcb50c860af7f8d128c317d5d008}{\index{main.\+cpp@{main.\+cpp}!start\+Light\+Bulb\+Accel\+Behavior@{start\+Light\+Bulb\+Accel\+Behavior}}
+\index{start\+Light\+Bulb\+Accel\+Behavior@{start\+Light\+Bulb\+Accel\+Behavior}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{start\+Light\+Bulb\+Accel\+Behavior}]{\setlength{\rightskip}{0pt plus 5cm}static void start\+Light\+Bulb\+Accel\+Behavior (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{ctxt, }
+\item[{unsigned}]{cid, }
+\item[{{\bf Tilt\+Direction}}]{tilt\+Direction}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{main_8cpp_a26bddcb50c860af7f8d128c317d5d008}
+implements the behavior of the light\+Bulb cube when accel is changed 
+\begin{DoxyParams}{Parameters}
+{\em cid} & cube id. \\
+\hline
+{\em ctxt} & sifteo framework param. not used. \\
+\hline
+{\em tilt\+Direction} & the direction in which the cube is tilt \\
+\hline
+\end{DoxyParams}
+\hypertarget{main_8cpp_a1e81a54c6cf59b204db4e19ad996778c}{\index{main.\+cpp@{main.\+cpp}!start\+Light\+Bulb\+Touch\+Behavior@{start\+Light\+Bulb\+Touch\+Behavior}}
+\index{start\+Light\+Bulb\+Touch\+Behavior@{start\+Light\+Bulb\+Touch\+Behavior}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{start\+Light\+Bulb\+Touch\+Behavior}]{\setlength{\rightskip}{0pt plus 5cm}static void start\+Light\+Bulb\+Touch\+Behavior (
+\begin{DoxyParamCaption}
+\item[{unsigned}]{cid}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{main_8cpp_a1e81a54c6cf59b204db4e19ad996778c}
+implements the behavior of the light\+Bulb cube when the cube is touched 
+\begin{DoxyParams}{Parameters}
+{\em cid} & cube id \\
+\hline
+\end{DoxyParams}
+\hypertarget{main_8cpp_a8278c77b391fc974e8358b3745e5342e}{\index{main.\+cpp@{main.\+cpp}!start\+Paint\+Pot\+Accel\+Behavior@{start\+Paint\+Pot\+Accel\+Behavior}}
+\index{start\+Paint\+Pot\+Accel\+Behavior@{start\+Paint\+Pot\+Accel\+Behavior}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{start\+Paint\+Pot\+Accel\+Behavior}]{\setlength{\rightskip}{0pt plus 5cm}static void start\+Paint\+Pot\+Accel\+Behavior (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{ctxt, }
+\item[{unsigned}]{cid, }
+\item[{{\bf Tilt\+Direction}}]{tilt\+Direction}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{main_8cpp_a8278c77b391fc974e8358b3745e5342e}
+implements the behavior of the paintpot cube when accel is changed 
+\begin{DoxyParams}{Parameters}
+{\em cid} & cube id. \\
+\hline
+{\em ctxt} & sifteo framework param. not used. \\
+\hline
+{\em tilt\+Direction} & the direction in which the cube is tilt \\
+\hline
+\end{DoxyParams}
+\hypertarget{main_8cpp_a8665c5d1561cdf7ff2e09f56ed3253f8}{\index{main.\+cpp@{main.\+cpp}!start\+Paint\+Pot\+Container\+Neighbour\+Behavior@{start\+Paint\+Pot\+Container\+Neighbour\+Behavior}}
+\index{start\+Paint\+Pot\+Container\+Neighbour\+Behavior@{start\+Paint\+Pot\+Container\+Neighbour\+Behavior}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{start\+Paint\+Pot\+Container\+Neighbour\+Behavior}]{\setlength{\rightskip}{0pt plus 5cm}static void start\+Paint\+Pot\+Container\+Neighbour\+Behavior (
+\begin{DoxyParamCaption}
+\item[{unsigned}]{cid, }
+\item[{unsigned}]{side0}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{main_8cpp_a8665c5d1561cdf7ff2e09f56ed3253f8}
+implements the behavior of the paint\+Pot cube when an other cube is his neighbour 
+\begin{DoxyParams}{Parameters}
+{\em cid} & cube id. \\
+\hline
+{\em side0} & side where the cube is in touch with the other cube \\
+\hline
+\end{DoxyParams}
+\hypertarget{main_8cpp_a6bdbd60d02dfe2d26ce9357aacb48acc}{\index{main.\+cpp@{main.\+cpp}!start\+Paint\+Pot\+Touch\+Behavior@{start\+Paint\+Pot\+Touch\+Behavior}}
+\index{start\+Paint\+Pot\+Touch\+Behavior@{start\+Paint\+Pot\+Touch\+Behavior}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{start\+Paint\+Pot\+Touch\+Behavior}]{\setlength{\rightskip}{0pt plus 5cm}static void start\+Paint\+Pot\+Touch\+Behavior (
+\begin{DoxyParamCaption}
+\item[{unsigned}]{cid}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{main_8cpp_a6bdbd60d02dfe2d26ce9357aacb48acc}
+implements the behavior of the paint\+Pot cube when the cube is touched 
+\begin{DoxyParams}{Parameters}
+{\em cid} & cube id \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Variable Documentation}
+\hypertarget{main_8cpp_a5e995c62cdca27f695a5efd16c4b7899}{\index{main.\+cpp@{main.\+cpp}!acceleration\+Assessor@{acceleration\+Assessor}}
+\index{acceleration\+Assessor@{acceleration\+Assessor}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{acceleration\+Assessor}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Acceleration\+Assessor} acceleration\+Assessor\hspace{0.3cm}{\ttfamily [static]}}}\label{main_8cpp_a5e995c62cdca27f695a5efd16c4b7899}
+\hypertarget{main_8cpp_abde08e5e4447711411dc51a4076bdb6e}{\index{main.\+cpp@{main.\+cpp}!auto\+Communication@{auto\+Communication}}
+\index{auto\+Communication@{auto\+Communication}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{auto\+Communication}]{\setlength{\rightskip}{0pt plus 5cm}bool auto\+Communication = false}}\label{main_8cpp_abde08e5e4447711411dc51a4076bdb6e}
+\hypertarget{main_8cpp_aa7ab72a18faba1d13601a9209ff2dcf8}{\index{main.\+cpp@{main.\+cpp}!brightness@{brightness}}
+\index{brightness@{brightness}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{brightness}]{\setlength{\rightskip}{0pt plus 5cm}int brightness = 254}}\label{main_8cpp_aa7ab72a18faba1d13601a9209ff2dcf8}
+\hypertarget{main_8cpp_acbef923ad22ef0461dd67c0aaf13c9d7}{\index{main.\+cpp@{main.\+cpp}!communication@{communication}}
+\index{communication@{communication}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{communication}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Communication} communication\hspace{0.3cm}{\ttfamily [static]}}}\label{main_8cpp_acbef923ad22ef0461dd67c0aaf13c9d7}
+\hypertarget{main_8cpp_a70970a597ee91e1f36fdffd51ff1a644}{\index{main.\+cpp@{main.\+cpp}!Container\+Blue@{Container\+Blue}}
+\index{Container\+Blue@{Container\+Blue}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{Container\+Blue}]{\setlength{\rightskip}{0pt plus 5cm}float Container\+Blue = 0}}\label{main_8cpp_a70970a597ee91e1f36fdffd51ff1a644}
+\hypertarget{main_8cpp_aef9e6ff1f267e54f6a9942e7d46f0edb}{\index{main.\+cpp@{main.\+cpp}!Container\+Red@{Container\+Red}}
+\index{Container\+Red@{Container\+Red}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{Container\+Red}]{\setlength{\rightskip}{0pt plus 5cm}float Container\+Red = 0}}\label{main_8cpp_aef9e6ff1f267e54f6a9942e7d46f0edb}
+\hypertarget{main_8cpp_a7c370d6bad87103f71ffc45d05beef17}{\index{main.\+cpp@{main.\+cpp}!Container\+Yellow@{Container\+Yellow}}
+\index{Container\+Yellow@{Container\+Yellow}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{Container\+Yellow}]{\setlength{\rightskip}{0pt plus 5cm}float Container\+Yellow = 0}}\label{main_8cpp_a7c370d6bad87103f71ffc45d05beef17}
+\hypertarget{main_8cpp_a145a4c0cac329230ab67f192e85de27a}{\index{main.\+cpp@{main.\+cpp}!cube\+Drawer@{cube\+Drawer}}
+\index{cube\+Drawer@{cube\+Drawer}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{cube\+Drawer}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Cube\+Drawer} cube\+Drawer\hspace{0.3cm}{\ttfamily [static]}}}\label{main_8cpp_a145a4c0cac329230ab67f192e85de27a}
+\hypertarget{main_8cpp_ab8d61245ea6c08c586354d7301f146e8}{\index{main.\+cpp@{main.\+cpp}!fill\+Direction\+Blue@{fill\+Direction\+Blue}}
+\index{fill\+Direction\+Blue@{fill\+Direction\+Blue}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{fill\+Direction\+Blue}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Fill\+Direction} fill\+Direction\+Blue = {\bf Fill\+Direction\+Add}}}\label{main_8cpp_ab8d61245ea6c08c586354d7301f146e8}
+\hypertarget{main_8cpp_aa69a78fe8f0a5e64c01a13e1d0486ea9}{\index{main.\+cpp@{main.\+cpp}!fill\+Direction\+Red@{fill\+Direction\+Red}}
+\index{fill\+Direction\+Red@{fill\+Direction\+Red}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{fill\+Direction\+Red}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Fill\+Direction} fill\+Direction\+Red = {\bf Fill\+Direction\+Add}}}\label{main_8cpp_aa69a78fe8f0a5e64c01a13e1d0486ea9}
+\hypertarget{main_8cpp_a12bdf4215af10b75d1a285c75cc975a8}{\index{main.\+cpp@{main.\+cpp}!fill\+Direction\+Yellow@{fill\+Direction\+Yellow}}
+\index{fill\+Direction\+Yellow@{fill\+Direction\+Yellow}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{fill\+Direction\+Yellow}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Fill\+Direction} fill\+Direction\+Yellow = {\bf Fill\+Direction\+Add}}}\label{main_8cpp_a12bdf4215af10b75d1a285c75cc975a8}
+\hypertarget{main_8cpp_ad86a477584da48944b4bec180c0e24f9}{\index{main.\+cpp@{main.\+cpp}!last\+Accel\+Change@{last\+Accel\+Change}}
+\index{last\+Accel\+Change@{last\+Accel\+Change}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{last\+Accel\+Change}]{\setlength{\rightskip}{0pt plus 5cm}System\+Time last\+Accel\+Change = System\+Time\+::now()}}\label{main_8cpp_ad86a477584da48944b4bec180c0e24f9}
+\hypertarget{main_8cpp_af849f884d5de66a85f2ddaa99c37c4d2}{\index{main.\+cpp@{main.\+cpp}!last\+Auto\+Communication\+Sent@{last\+Auto\+Communication\+Sent}}
+\index{last\+Auto\+Communication\+Sent@{last\+Auto\+Communication\+Sent}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{last\+Auto\+Communication\+Sent}]{\setlength{\rightskip}{0pt plus 5cm}System\+Time last\+Auto\+Communication\+Sent = System\+Time\+::now()}}\label{main_8cpp_af849f884d5de66a85f2ddaa99c37c4d2}
+\hypertarget{main_8cpp_a1a6c3dcc03b3b39fad17616e120c5be0}{\index{main.\+cpp@{main.\+cpp}!last\+Click@{last\+Click}}
+\index{last\+Click@{last\+Click}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{last\+Click}]{\setlength{\rightskip}{0pt plus 5cm}System\+Time last\+Click = System\+Time\+::now()}}\label{main_8cpp_a1a6c3dcc03b3b39fad17616e120c5be0}
+\hypertarget{main_8cpp_a714c7d126208a80b0b8f19f636de4e3c}{\index{main.\+cpp@{main.\+cpp}!light\+Bulb\+State@{light\+Bulb\+State}}
+\index{light\+Bulb\+State@{light\+Bulb\+State}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{light\+Bulb\+State}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Light\+Bulb\+State} light\+Bulb\+State = {\bf Light\+Bulb\+State\+On}}}\label{main_8cpp_a714c7d126208a80b0b8f19f636de4e3c}

@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="build.bat" />
+    <None Include="assets\attach.raw">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="assets\connect.raw">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="assets\detach.raw">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="assets\neighbor.raw">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="assets\ultrasyd-toy_world.xm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="assets.lua">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Makefile" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="AccelerationAssessor.cpp" />
+    <ClCompile Include="Configuration.cpp" />
+    <ClCompile Include="Communication.cpp" />
+    <ClCompile Include="RYBToRGBConverter.cpp" />
+    <ClCompile Include="CubeDrawer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\lightbulb.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\emptyContainer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\bucket_blue_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\bucket_blue_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\bucket_blue_3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\bucket_blue_4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\bucket_blue_5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\bucket_blue_6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\bucket_blue_7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\bucket_blue_8.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\bucket_blue_9.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\bucket_blue_10.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\bucket_red_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\bucket_red_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\bucket_red_3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\bucket_red_4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\bucket_red_5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\bucket_red_6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\bucket_red_7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\bucket_red_8.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\bucket_red_9.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\bucket_red_10.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\bucket_yellow_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\bucket_yellow_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\bucket_yellow_3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\bucket_yellow_4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\bucket_yellow_5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\bucket_yellow_6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\bucket_yellow_7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\bucket_yellow_8.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\bucket_yellow_9.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\bucket_yellow_10.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\lightbulb_on_0.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\lightbulb_on_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\lightbulb_on_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\lightbulb_on_3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\lightbulb_on_4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\lightbulb_on_5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\lightbulb_on_6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\lightbulb_off.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

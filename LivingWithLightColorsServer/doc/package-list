@@ -1,0 +1,10 @@
+ch.hslu.livingWithLightColors.BusinessLogic
+ch.hslu.livingWithLightColors.BusinessLogic.Abstraction
+ch.hslu.livingWithLightColors.BusinessLogic.Interfaces
+ch.hslu.livingWithLightColors.BusinessLogic.Protocol
+ch.hslu.livingWithLightColors.BusinessLogic.Test
+ch.hslu.livingWithLightColors.DataAccess
+ch.hslu.livingWithLightColors.DataAccess.Abstraction
+ch.hslu.livingWithLightColors.DataAccess.Test
+ch.hslu.livingWithLightColors.IntegrationTests
+ch.hslu.livingWithLightColors.Start

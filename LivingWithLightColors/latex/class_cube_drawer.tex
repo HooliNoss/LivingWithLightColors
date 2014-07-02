@@ -1,0 +1,179 @@
+\hypertarget{class_cube_drawer}{\section{Cube\+Drawer Class Reference}
+\label{class_cube_drawer}\index{Cube\+Drawer@{Cube\+Drawer}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_cube_drawer_a3b1168fa71224f19164367296c93d335}{Cube\+Drawer} ()
+\item 
+float \hyperlink{class_cube_drawer_a84ccbaf912cfdb235e345e21f41fc2ce}{Get\+R\+G\+B\+Red} ()
+\item 
+float \hyperlink{class_cube_drawer_ac60f7e6c9ff0fa65e6e560e6a2f343ab}{Get\+R\+G\+B\+Green} ()
+\item 
+float \hyperlink{class_cube_drawer_aaface2a1a6a992578bc639acab0bb5e0}{Get\+R\+G\+B\+Blue} ()
+\item 
+void \hyperlink{class_cube_drawer_a98924c1ba8f84c022628379cbe98c649}{Reset\+Container} ()
+\item 
+void \hyperlink{class_cube_drawer_a7da44d9557e804997a7335c9e26c7d3c}{Draw\+Red\+Cube} (float red\+Value)
+\item 
+void \hyperlink{class_cube_drawer_ab6bc069ecabe5173725c17bcc47ba23e}{Draw\+Yellow\+Cube} (float yellow\+Value)
+\item 
+void \hyperlink{class_cube_drawer_af79912c422160746bba73bac117883b4}{Draw\+Blue\+Cube} (float blue\+Value)
+\item 
+void \hyperlink{class_cube_drawer_a05e6fd33e056d85f4d58d6e452a90f3a}{Draw\+Light\+Blub} (int brightness\+Value, \hyperlink{_configuration_8cpp_a4f6a51e216a42669e538078745cbd8bb}{Light\+Bulb\+State} state)
+\item 
+void \hyperlink{class_cube_drawer_a6b2babde183b97ebbdb249b342c62559}{Draw\+Container} (float red\+Value, float yellow\+Value, float blue\+Value)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_r_y_bto_r_g_b_converter}{R\+Y\+Bto\+R\+G\+B\+Converter} \hyperlink{class_cube_drawer_ab9483b262b62ff540e3464b17f2a57d1}{ryb\+To\+R\+G\+B\+Converter}
+\item 
+float \hyperlink{class_cube_drawer_a5f960475b30e9508076bde88e591c470}{rgb\+Red}
+\item 
+float \hyperlink{class_cube_drawer_a9d0faded7b1cea3fd2ffdc37074826d0}{rgb\+Green}
+\item 
+float \hyperlink{class_cube_drawer_ab72d63224a9a847b174bf645b9c21da6}{rgb\+Blue}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class who draws all the cubes 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_cube_drawer_a3b1168fa71224f19164367296c93d335}{\index{Cube\+Drawer@{Cube\+Drawer}!Cube\+Drawer@{Cube\+Drawer}}
+\index{Cube\+Drawer@{Cube\+Drawer}!Cube\+Drawer@{Cube\+Drawer}}
+\subsubsection[{Cube\+Drawer}]{\setlength{\rightskip}{0pt plus 5cm}Cube\+Drawer\+::\+Cube\+Drawer (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_cube_drawer_a3b1168fa71224f19164367296c93d335}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_cube_drawer_af79912c422160746bba73bac117883b4}{\index{Cube\+Drawer@{Cube\+Drawer}!Draw\+Blue\+Cube@{Draw\+Blue\+Cube}}
+\index{Draw\+Blue\+Cube@{Draw\+Blue\+Cube}!Cube\+Drawer@{Cube\+Drawer}}
+\subsubsection[{Draw\+Blue\+Cube}]{\setlength{\rightskip}{0pt plus 5cm}void Cube\+Drawer\+::\+Draw\+Blue\+Cube (
+\begin{DoxyParamCaption}
+\item[{float}]{blue\+Value}
+\end{DoxyParamCaption}
+)}}\label{class_cube_drawer_af79912c422160746bba73bac117883b4}
+draws the blue cube 
+\begin{DoxyParams}{Parameters}
+{\em blue\+Value} & value between 0 and 1 \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_cube_drawer_a6b2babde183b97ebbdb249b342c62559}{\index{Cube\+Drawer@{Cube\+Drawer}!Draw\+Container@{Draw\+Container}}
+\index{Draw\+Container@{Draw\+Container}!Cube\+Drawer@{Cube\+Drawer}}
+\subsubsection[{Draw\+Container}]{\setlength{\rightskip}{0pt plus 5cm}void Cube\+Drawer\+::\+Draw\+Container (
+\begin{DoxyParamCaption}
+\item[{float}]{red\+Value, }
+\item[{float}]{yellow\+Value, }
+\item[{float}]{blue\+Value}
+\end{DoxyParamCaption}
+)}}\label{class_cube_drawer_a6b2babde183b97ebbdb249b342c62559}
+draws the container cube 
+\begin{DoxyParams}{Parameters}
+{\em red\+Value} & value between 0 and 1 \\
+\hline
+{\em yellow\+Value} & value between 0 and 1 \\
+\hline
+{\em blue\+Value} & value between 0 and 1 \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_cube_drawer_a05e6fd33e056d85f4d58d6e452a90f3a}{\index{Cube\+Drawer@{Cube\+Drawer}!Draw\+Light\+Blub@{Draw\+Light\+Blub}}
+\index{Draw\+Light\+Blub@{Draw\+Light\+Blub}!Cube\+Drawer@{Cube\+Drawer}}
+\subsubsection[{Draw\+Light\+Blub}]{\setlength{\rightskip}{0pt plus 5cm}void Cube\+Drawer\+::\+Draw\+Light\+Blub (
+\begin{DoxyParamCaption}
+\item[{int}]{brightness\+Value, }
+\item[{{\bf Light\+Bulb\+State}}]{state}
+\end{DoxyParamCaption}
+)}}\label{class_cube_drawer_a05e6fd33e056d85f4d58d6e452a90f3a}
+draws the light\+Bulb cube 
+\begin{DoxyParams}{Parameters}
+{\em brightness\+Value} & value between 0 and 255 \\
+\hline
+{\em state} & stete of the light\+Bulb \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_cube_drawer_a7da44d9557e804997a7335c9e26c7d3c}{\index{Cube\+Drawer@{Cube\+Drawer}!Draw\+Red\+Cube@{Draw\+Red\+Cube}}
+\index{Draw\+Red\+Cube@{Draw\+Red\+Cube}!Cube\+Drawer@{Cube\+Drawer}}
+\subsubsection[{Draw\+Red\+Cube}]{\setlength{\rightskip}{0pt plus 5cm}void Cube\+Drawer\+::\+Draw\+Red\+Cube (
+\begin{DoxyParamCaption}
+\item[{float}]{red\+Value}
+\end{DoxyParamCaption}
+)}}\label{class_cube_drawer_a7da44d9557e804997a7335c9e26c7d3c}
+draws the red cube 
+\begin{DoxyParams}{Parameters}
+{\em red\+Value} & value between 0 and 1 \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_cube_drawer_ab6bc069ecabe5173725c17bcc47ba23e}{\index{Cube\+Drawer@{Cube\+Drawer}!Draw\+Yellow\+Cube@{Draw\+Yellow\+Cube}}
+\index{Draw\+Yellow\+Cube@{Draw\+Yellow\+Cube}!Cube\+Drawer@{Cube\+Drawer}}
+\subsubsection[{Draw\+Yellow\+Cube}]{\setlength{\rightskip}{0pt plus 5cm}void Cube\+Drawer\+::\+Draw\+Yellow\+Cube (
+\begin{DoxyParamCaption}
+\item[{float}]{yellow\+Value}
+\end{DoxyParamCaption}
+)}}\label{class_cube_drawer_ab6bc069ecabe5173725c17bcc47ba23e}
+draws the yellow cube 
+\begin{DoxyParams}{Parameters}
+{\em yellow\+Value} & value between 0 and 1 \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_cube_drawer_aaface2a1a6a992578bc639acab0bb5e0}{\index{Cube\+Drawer@{Cube\+Drawer}!Get\+R\+G\+B\+Blue@{Get\+R\+G\+B\+Blue}}
+\index{Get\+R\+G\+B\+Blue@{Get\+R\+G\+B\+Blue}!Cube\+Drawer@{Cube\+Drawer}}
+\subsubsection[{Get\+R\+G\+B\+Blue}]{\setlength{\rightskip}{0pt plus 5cm}float Cube\+Drawer\+::\+Get\+R\+G\+B\+Blue (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_cube_drawer_aaface2a1a6a992578bc639acab0bb5e0}
+gets the red blue Value of the container \begin{DoxyReturn}{Returns}
+value between 0 and 1 
+\end{DoxyReturn}
+\hypertarget{class_cube_drawer_ac60f7e6c9ff0fa65e6e560e6a2f343ab}{\index{Cube\+Drawer@{Cube\+Drawer}!Get\+R\+G\+B\+Green@{Get\+R\+G\+B\+Green}}
+\index{Get\+R\+G\+B\+Green@{Get\+R\+G\+B\+Green}!Cube\+Drawer@{Cube\+Drawer}}
+\subsubsection[{Get\+R\+G\+B\+Green}]{\setlength{\rightskip}{0pt plus 5cm}float Cube\+Drawer\+::\+Get\+R\+G\+B\+Green (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_cube_drawer_ac60f7e6c9ff0fa65e6e560e6a2f343ab}
+gets the green R\+G\+B Value of the container \begin{DoxyReturn}{Returns}
+value between 0 and 1 
+\end{DoxyReturn}
+\hypertarget{class_cube_drawer_a84ccbaf912cfdb235e345e21f41fc2ce}{\index{Cube\+Drawer@{Cube\+Drawer}!Get\+R\+G\+B\+Red@{Get\+R\+G\+B\+Red}}
+\index{Get\+R\+G\+B\+Red@{Get\+R\+G\+B\+Red}!Cube\+Drawer@{Cube\+Drawer}}
+\subsubsection[{Get\+R\+G\+B\+Red}]{\setlength{\rightskip}{0pt plus 5cm}float Cube\+Drawer\+::\+Get\+R\+G\+B\+Red (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_cube_drawer_a84ccbaf912cfdb235e345e21f41fc2ce}
+gets the red R\+G\+B Value of the container \begin{DoxyReturn}{Returns}
+value between 0 and 1 
+\end{DoxyReturn}
+\hypertarget{class_cube_drawer_a98924c1ba8f84c022628379cbe98c649}{\index{Cube\+Drawer@{Cube\+Drawer}!Reset\+Container@{Reset\+Container}}
+\index{Reset\+Container@{Reset\+Container}!Cube\+Drawer@{Cube\+Drawer}}
+\subsubsection[{Reset\+Container}]{\setlength{\rightskip}{0pt plus 5cm}void Cube\+Drawer\+::\+Reset\+Container (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_cube_drawer_a98924c1ba8f84c022628379cbe98c649}
+resets all R\+G\+B Values of the container 
+
+\subsection{Member Data Documentation}
+\hypertarget{class_cube_drawer_ab72d63224a9a847b174bf645b9c21da6}{\index{Cube\+Drawer@{Cube\+Drawer}!rgb\+Blue@{rgb\+Blue}}
+\index{rgb\+Blue@{rgb\+Blue}!Cube\+Drawer@{Cube\+Drawer}}
+\subsubsection[{rgb\+Blue}]{\setlength{\rightskip}{0pt plus 5cm}float Cube\+Drawer\+::rgb\+Blue\hspace{0.3cm}{\ttfamily [private]}}}\label{class_cube_drawer_ab72d63224a9a847b174bf645b9c21da6}
+\hypertarget{class_cube_drawer_a9d0faded7b1cea3fd2ffdc37074826d0}{\index{Cube\+Drawer@{Cube\+Drawer}!rgb\+Green@{rgb\+Green}}
+\index{rgb\+Green@{rgb\+Green}!Cube\+Drawer@{Cube\+Drawer}}
+\subsubsection[{rgb\+Green}]{\setlength{\rightskip}{0pt plus 5cm}float Cube\+Drawer\+::rgb\+Green\hspace{0.3cm}{\ttfamily [private]}}}\label{class_cube_drawer_a9d0faded7b1cea3fd2ffdc37074826d0}
+\hypertarget{class_cube_drawer_a5f960475b30e9508076bde88e591c470}{\index{Cube\+Drawer@{Cube\+Drawer}!rgb\+Red@{rgb\+Red}}
+\index{rgb\+Red@{rgb\+Red}!Cube\+Drawer@{Cube\+Drawer}}
+\subsubsection[{rgb\+Red}]{\setlength{\rightskip}{0pt plus 5cm}float Cube\+Drawer\+::rgb\+Red\hspace{0.3cm}{\ttfamily [private]}}}\label{class_cube_drawer_a5f960475b30e9508076bde88e591c470}
+\hypertarget{class_cube_drawer_ab9483b262b62ff540e3464b17f2a57d1}{\index{Cube\+Drawer@{Cube\+Drawer}!ryb\+To\+R\+G\+B\+Converter@{ryb\+To\+R\+G\+B\+Converter}}
+\index{ryb\+To\+R\+G\+B\+Converter@{ryb\+To\+R\+G\+B\+Converter}!Cube\+Drawer@{Cube\+Drawer}}
+\subsubsection[{ryb\+To\+R\+G\+B\+Converter}]{\setlength{\rightskip}{0pt plus 5cm}{\bf R\+Y\+Bto\+R\+G\+B\+Converter} Cube\+Drawer\+::ryb\+To\+R\+G\+B\+Converter\hspace{0.3cm}{\ttfamily [private]}}}\label{class_cube_drawer_ab9483b262b62ff540e3464b17f2a57d1}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Living\+With\+Light\+Colors/\+Living\+With\+Light\+Colors/\hyperlink{_cube_drawer_8cpp}{Cube\+Drawer.\+cpp}\end{DoxyCompactItemize}

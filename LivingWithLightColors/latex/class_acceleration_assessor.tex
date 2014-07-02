@@ -1,0 +1,87 @@
+\hypertarget{class_acceleration_assessor}{\section{Acceleration\+Assessor Class Reference}
+\label{class_acceleration_assessor}\index{Acceleration\+Assessor@{Acceleration\+Assessor}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_acceleration_assessor_a1d0f9725b631a8a885423ba2761f76d2}{Acceleration\+Assessor} ()
+\item 
+\hyperlink{_configuration_8cpp_a45350fcfddbf1e93888b462976b0751c}{Tilt\+Direction} \hyperlink{class_acceleration_assessor_a8ba60a363d10333d91195fbec98a337c}{Cube\+Is\+Tilting} (Byte3 my\+Accel)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+const int \hyperlink{class_acceleration_assessor_aacf999cccafbc83bbf898881b82d14c0}{c\+Delta\+Positiv\+Low} = 20
+\item 
+const int \hyperlink{class_acceleration_assessor_a32d8467cfba8fc770aa4af2835bd9ab7}{c\+Delta\+Positiv\+Moderate} = 40
+\item 
+const int \hyperlink{class_acceleration_assessor_adc6aad5920bddf022ae7e8918458728c}{c\+Delta\+Positiv\+High} = 50
+\item 
+const int \hyperlink{class_acceleration_assessor_a2aa36babea6c7b5c50f1274c368a7453}{c\+Delta\+Negativ\+Low} = -\/20
+\item 
+const int \hyperlink{class_acceleration_assessor_a055c732fba4149262e248745066add91}{c\+Delta\+Negativ\+Moderate} = -\/40
+\item 
+const int \hyperlink{class_acceleration_assessor_af4084d41b19e6ff02f97d6c38f18ef0c}{c\+Delta\+Negativ\+High} = -\/50
+\item 
+const int \hyperlink{class_acceleration_assessor_a1c4b1fe844d38dcb4985a6b887b2622a}{c\+Max\+Positiv} = 230
+\item 
+const int \hyperlink{class_acceleration_assessor_a69ee556f7aea51f507ef1b314e5e4630}{c\+Max\+Negativ} = -\/230
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Validats the incoming tilt values and returns the specific tilt direction 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_acceleration_assessor_a1d0f9725b631a8a885423ba2761f76d2}{\index{Acceleration\+Assessor@{Acceleration\+Assessor}!Acceleration\+Assessor@{Acceleration\+Assessor}}
+\index{Acceleration\+Assessor@{Acceleration\+Assessor}!Acceleration\+Assessor@{Acceleration\+Assessor}}
+\subsubsection[{Acceleration\+Assessor}]{\setlength{\rightskip}{0pt plus 5cm}Acceleration\+Assessor\+::\+Acceleration\+Assessor (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_acceleration_assessor_a1d0f9725b631a8a885423ba2761f76d2}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_acceleration_assessor_a8ba60a363d10333d91195fbec98a337c}{\index{Acceleration\+Assessor@{Acceleration\+Assessor}!Cube\+Is\+Tilting@{Cube\+Is\+Tilting}}
+\index{Cube\+Is\+Tilting@{Cube\+Is\+Tilting}!Acceleration\+Assessor@{Acceleration\+Assessor}}
+\subsubsection[{Cube\+Is\+Tilting}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Tilt\+Direction} Acceleration\+Assessor\+::\+Cube\+Is\+Tilting (
+\begin{DoxyParamCaption}
+\item[{Byte3}]{p\+Accel}
+\end{DoxyParamCaption}
+)}}\label{class_acceleration_assessor_a8ba60a363d10333d91195fbec98a337c}
+Checks if the cube is tilting \begin{DoxyReturn}{Returns}
+returns the tilt direction of the cube 
+\end{DoxyReturn}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_acceleration_assessor_af4084d41b19e6ff02f97d6c38f18ef0c}{\index{Acceleration\+Assessor@{Acceleration\+Assessor}!c\+Delta\+Negativ\+High@{c\+Delta\+Negativ\+High}}
+\index{c\+Delta\+Negativ\+High@{c\+Delta\+Negativ\+High}!Acceleration\+Assessor@{Acceleration\+Assessor}}
+\subsubsection[{c\+Delta\+Negativ\+High}]{\setlength{\rightskip}{0pt plus 5cm}const int Acceleration\+Assessor\+::c\+Delta\+Negativ\+High = -\/50\hspace{0.3cm}{\ttfamily [private]}}}\label{class_acceleration_assessor_af4084d41b19e6ff02f97d6c38f18ef0c}
+\hypertarget{class_acceleration_assessor_a2aa36babea6c7b5c50f1274c368a7453}{\index{Acceleration\+Assessor@{Acceleration\+Assessor}!c\+Delta\+Negativ\+Low@{c\+Delta\+Negativ\+Low}}
+\index{c\+Delta\+Negativ\+Low@{c\+Delta\+Negativ\+Low}!Acceleration\+Assessor@{Acceleration\+Assessor}}
+\subsubsection[{c\+Delta\+Negativ\+Low}]{\setlength{\rightskip}{0pt plus 5cm}const int Acceleration\+Assessor\+::c\+Delta\+Negativ\+Low = -\/20\hspace{0.3cm}{\ttfamily [private]}}}\label{class_acceleration_assessor_a2aa36babea6c7b5c50f1274c368a7453}
+\hypertarget{class_acceleration_assessor_a055c732fba4149262e248745066add91}{\index{Acceleration\+Assessor@{Acceleration\+Assessor}!c\+Delta\+Negativ\+Moderate@{c\+Delta\+Negativ\+Moderate}}
+\index{c\+Delta\+Negativ\+Moderate@{c\+Delta\+Negativ\+Moderate}!Acceleration\+Assessor@{Acceleration\+Assessor}}
+\subsubsection[{c\+Delta\+Negativ\+Moderate}]{\setlength{\rightskip}{0pt plus 5cm}const int Acceleration\+Assessor\+::c\+Delta\+Negativ\+Moderate = -\/40\hspace{0.3cm}{\ttfamily [private]}}}\label{class_acceleration_assessor_a055c732fba4149262e248745066add91}
+\hypertarget{class_acceleration_assessor_adc6aad5920bddf022ae7e8918458728c}{\index{Acceleration\+Assessor@{Acceleration\+Assessor}!c\+Delta\+Positiv\+High@{c\+Delta\+Positiv\+High}}
+\index{c\+Delta\+Positiv\+High@{c\+Delta\+Positiv\+High}!Acceleration\+Assessor@{Acceleration\+Assessor}}
+\subsubsection[{c\+Delta\+Positiv\+High}]{\setlength{\rightskip}{0pt plus 5cm}const int Acceleration\+Assessor\+::c\+Delta\+Positiv\+High = 50\hspace{0.3cm}{\ttfamily [private]}}}\label{class_acceleration_assessor_adc6aad5920bddf022ae7e8918458728c}
+\hypertarget{class_acceleration_assessor_aacf999cccafbc83bbf898881b82d14c0}{\index{Acceleration\+Assessor@{Acceleration\+Assessor}!c\+Delta\+Positiv\+Low@{c\+Delta\+Positiv\+Low}}
+\index{c\+Delta\+Positiv\+Low@{c\+Delta\+Positiv\+Low}!Acceleration\+Assessor@{Acceleration\+Assessor}}
+\subsubsection[{c\+Delta\+Positiv\+Low}]{\setlength{\rightskip}{0pt plus 5cm}const int Acceleration\+Assessor\+::c\+Delta\+Positiv\+Low = 20\hspace{0.3cm}{\ttfamily [private]}}}\label{class_acceleration_assessor_aacf999cccafbc83bbf898881b82d14c0}
+\hypertarget{class_acceleration_assessor_a32d8467cfba8fc770aa4af2835bd9ab7}{\index{Acceleration\+Assessor@{Acceleration\+Assessor}!c\+Delta\+Positiv\+Moderate@{c\+Delta\+Positiv\+Moderate}}
+\index{c\+Delta\+Positiv\+Moderate@{c\+Delta\+Positiv\+Moderate}!Acceleration\+Assessor@{Acceleration\+Assessor}}
+\subsubsection[{c\+Delta\+Positiv\+Moderate}]{\setlength{\rightskip}{0pt plus 5cm}const int Acceleration\+Assessor\+::c\+Delta\+Positiv\+Moderate = 40\hspace{0.3cm}{\ttfamily [private]}}}\label{class_acceleration_assessor_a32d8467cfba8fc770aa4af2835bd9ab7}
+\hypertarget{class_acceleration_assessor_a69ee556f7aea51f507ef1b314e5e4630}{\index{Acceleration\+Assessor@{Acceleration\+Assessor}!c\+Max\+Negativ@{c\+Max\+Negativ}}
+\index{c\+Max\+Negativ@{c\+Max\+Negativ}!Acceleration\+Assessor@{Acceleration\+Assessor}}
+\subsubsection[{c\+Max\+Negativ}]{\setlength{\rightskip}{0pt plus 5cm}const int Acceleration\+Assessor\+::c\+Max\+Negativ = -\/230\hspace{0.3cm}{\ttfamily [private]}}}\label{class_acceleration_assessor_a69ee556f7aea51f507ef1b314e5e4630}
+\hypertarget{class_acceleration_assessor_a1c4b1fe844d38dcb4985a6b887b2622a}{\index{Acceleration\+Assessor@{Acceleration\+Assessor}!c\+Max\+Positiv@{c\+Max\+Positiv}}
+\index{c\+Max\+Positiv@{c\+Max\+Positiv}!Acceleration\+Assessor@{Acceleration\+Assessor}}
+\subsubsection[{c\+Max\+Positiv}]{\setlength{\rightskip}{0pt plus 5cm}const int Acceleration\+Assessor\+::c\+Max\+Positiv = 230\hspace{0.3cm}{\ttfamily [private]}}}\label{class_acceleration_assessor_a1c4b1fe844d38dcb4985a6b887b2622a}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Living\+With\+Light\+Colors/\+Living\+With\+Light\+Colors/\hyperlink{_acceleration_assessor_8cpp}{Acceleration\+Assessor.\+cpp}\end{DoxyCompactItemize}
